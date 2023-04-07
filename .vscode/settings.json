@@ -1,0 +1,21 @@
+{
+  "C_Cpp.errorSquiggles": "Disabled",
+  "java.debug.settings.onBuildFailureProceed": true,
+  "java.dependency.syncWithFolderExplorer": false,
+  "python.formatting.provider": "black",
+  "[cpp]": {
+    "files.encoding": "gb2312"
+},
+"[c]": {
+    "files.encoding": "gb2312"
+},
+"files.associations": {
+  "iostream": "cpp",
+  "ostream": "cpp",
+  "array": "c",
+  "string": "c",
+  "string_view": "c"
+}
+
+
+}
