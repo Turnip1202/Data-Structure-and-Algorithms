@@ -188,7 +188,7 @@ int main()
     ListTraverse(L);
     printf("L.length=%d \n", L.length);
 
-    GetElem(L, 5, &e); //内部将获取到的元素给了e
+    GetElem(L, 5, &e); // 内部将获取到的元素给了e
     printf("第5个元素的值为：%d\n", e);
     for (j = 3; j <= 4; j++)
     {
@@ -218,7 +218,7 @@ int main()
     printf("依次输出L的元素：");
     ListTraverse(L);
 
-    //构造一个有10个数的Lb
+    // 构造一个有10个数的Lb
     i = InitList(&Lb);
     for (j = 6; j <= 15; j++)
         i = ListInsert(&Lb, 1, j);

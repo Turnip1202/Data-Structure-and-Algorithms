@@ -112,7 +112,7 @@ Status StackLength(SqStack S)
   return S.top + 1;
 }
 // 从栈底至栈顶依次对栈中每个元素显示
-Status StackTraverse(SqStack S)
+int StackTraverse(SqStack S)
 {
   int i = 0;
   if (S.top == -1)
